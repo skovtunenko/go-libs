@@ -19,6 +19,10 @@ This repo contains the list of good to use Golang libraries.
   https://golang.org/x/sync/errgroup
 
 
+* A universal mechanism to manage goroutine lifecycles. From **Peter Bourgon**.
+  https://github.com/oklog/run
+
+
 * **SizedWaitGroup** has the same role and close to the same API as the Golang sync.WaitGroup but it adds a limit on the amount of goroutines started concurrently.
   https://github.com/remeh/sizedwaitgroup
 
