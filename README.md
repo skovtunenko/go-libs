@@ -12,6 +12,14 @@ This repo contains the list of good to use Golang libraries.
 * Simple error handling primitives.
   https://github.com/pkg/errors
 
+## Application lifecycle
+
+* Graceful shutdown using `graterm` library.
+  https://github.com/skovtunenko/graterm
+
+
+* Wiring of application components using Wire
+  https://github.com/google/wire
 
 ## Goroutine management
 
