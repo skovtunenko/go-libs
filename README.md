@@ -1,15 +1,15 @@
 # go-libs
 
-This repo contains the list of good to use Golang libraries.
+This repo contains the list of good-to-use Golang libraries.
 
 
 ## Error Handling
 
-* A Go (golang) package for representing a list of errors as a single error.
+* A Go (golang) package for representing a list of errors as a single error. **Not relevant anymore.**
   https://github.com/hashicorp/go-multierror
 
 
-* Simple error handling primitives.
+* Simple error handling primitives. **INACTIVE**
   https://github.com/pkg/errors
 
 ## Application lifecycle
@@ -21,6 +21,11 @@ This repo contains the list of good to use Golang libraries.
 * Wiring of application components using Wire
   https://github.com/google/wire
 
+## Scripting
+
+* The Common Expression Language (CEL) is a non-Turing complete language designed for simplicity, speed, safety, and portability.
+  https://github.com/google/cel-go
+
 ## Goroutine management
 
 * Package **errgroup** provides synchronization, error propagation, and Context cancelation for groups of goroutines working on subtasks of a common task.
@@ -31,7 +36,7 @@ This repo contains the list of good to use Golang libraries.
   https://github.com/oklog/run
 
 
-* **SizedWaitGroup** has the same role and close to the same API as the Golang sync.WaitGroup but it adds a limit on the amount of goroutines started concurrently.
+* **SizedWaitGroup** has the same role and is close to the same API as the Golang sync.WaitGroup but it adds a limit on the amount of goroutines started concurrently.
   https://github.com/remeh/sizedwaitgroup
 
 ## Rest API
@@ -69,7 +74,7 @@ TBD
   https://github.com/benbjohnson/clock
 
 
-* A toolkit with common **assertions** and mocks that plays nicely with the standard library
+* A toolkit with common **assertions** and mocks that play nicely with the standard library
   https://github.com/stretchr/testify
 
 
@@ -79,6 +84,9 @@ TBD
 
 * Professional lightweight **testing mini-framework** for Go.
   https://github.com/matryer/is
+
+* **what** is a set of simple and easy logging functions suitable for tracing any kind of activity in your code. **what** can print the current function name, quickly Printf-format your data, and dump data structures. And last but not least, no **what** calls reach your production binary (unless you want it so). Debug-level logging is for developers only.
+  https://github.com/appliedgocode/what
 
 ## Coding standards
 
