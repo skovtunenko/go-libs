@@ -41,7 +41,8 @@ This repo contains the list of good-to-use Golang libraries.
 
 ## Rest API
 
-TBD
+* **go-querystring** is a Go library for encoding structs into URL query parameters.
+  https://github.com/google/go-querystring
 
 
 ## Validation
@@ -65,6 +66,8 @@ TBD
 * **GoMock** is a mocking framework for the Go programming language.
   https://github.com/golang/mock
 
+* **httpexpect** is a set of chainable builders for HTTP requests and assertions for HTTP responses and payload, on top of net/http and several utility packages.
+  https://github.com/gavv/httpexpect
 
 * **Testcontainers-Go** is a Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests.
   https://github.com/testcontainers/testcontainers-go
